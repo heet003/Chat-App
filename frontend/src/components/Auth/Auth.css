@@ -1,0 +1,20 @@
+.login-signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.auth-form .ant-form-item-label>label {
+    font-size: 1rem;
+}

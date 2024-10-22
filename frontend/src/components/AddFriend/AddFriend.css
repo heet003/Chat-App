@@ -1,0 +1,134 @@
+/* Container for the layout */
+.friend-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Style for the friend requests section */
+.friend-requests {
+    width: 30%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for each friend request section */
+.receive-request,
+.sent-request {
+    margin-bottom: 20px;
+}
+
+.receive-request ul,
+.sent-request ul {
+    list-style: none;
+    padding: 0;
+}
+
+.receive-request li,
+.sent-request li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.receive-request button,
+.sent-request span {
+    margin-left: 10px;
+}
+
+.request-accept {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.request-reject {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sent-request span {
+    font-weight: bold;
+}
+
+/* Style for the search and add friends section */
+.add-friend {
+    width: 65%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the search input and button */
+.add-friend input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.searchBtn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for search results */
+.search-result ul {
+    list-style: none;
+    padding: 0;
+}
+
+.search-result li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.search-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-name-email {
+    flex: 1;
+}
+
+.add-friendBtn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pending {
+    color: rgb(224, 224, 34);
+}
+
+.sent-li {
+    background-color: #fffef9;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(128, 128, 128, 0.458);
+    border-radius: 10px;
+}

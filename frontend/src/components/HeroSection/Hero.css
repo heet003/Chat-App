@@ -1,0 +1,93 @@
+.hero-container {
+    background-color: #ffffff;
+    margin-top: 4rem;
+}
+
+.hero-text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero-text span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.hero-text .first {
+    color: blue;
+}
+
+.hero-text p {
+    width: 50%;
+    margin: 1% auto;
+    font-size: 1rem;
+    color: #666;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section {
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.center-image img {
+    width: 31rem;
+}
+
+.chat-images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.chat-images img {
+    width: 20%;
+}
+
+.chat {
+    position: absolute;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.chat1 {
+    top: 0%;
+    left: 20%;
+}
+
+.chat2 {
+    top: 0%;
+    right: 20%;
+}
+
+.chat3 {
+    bottom: 10%;
+    left: 20%;
+}
+
+.chat4 {
+    top: 50%;
+    right: 20%;
+}
+
+.chat:hover {
+    transform: scale(1.1);
+}
